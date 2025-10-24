@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="icon" href="./favicon.png">
+    <title>Leitura de Vidas Passadas</title>
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.22.0/video-js.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="low">
+    <link rel="preload" as="style" href="./css/astrologyStyle.css">
+    <link rel="stylesheet" href="./css/astrologyStyle.css">
+    <!-- Removidos preloads/prefetch de ConverteAI/VTurb -->
+    <script src="./js/jquery.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-11R9QPX4PW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-11R9QPX4PW');
+    </script>
+    <script>
+      (function(){
+        window.gaEvent = function(name, params){ try { if (typeof gtag === 'function') gtag('event', name, params || {}); } catch(e){} };
+        window.fbEvent = function(name, params){ try { if (typeof fbq === 'function'){ if (name === 'Lead' || name === 'InitiateCheckout' || name === 'PageView' || name === 'ViewContent') fbq('track', name, params || {}); else fbq('trackCustom', name, params || {}); } } catch(e){} };
+        try {
+          window.dataLayer = window.dataLayer || [];
+          var dl = window.dataLayer;
+          var originalPush = dl.push.bind(dl);
+          dl.push = function(){
+            for (var i=0;i<arguments.length;i++){
+              var ev = arguments[i];
+              try {
+                if (ev && ev.event === 'add_lead_alma'){
+                  if (typeof gaEvent === 'function') gaEvent('generate_lead', {method:'email_form'});
+                  if (typeof fbEvent === 'function') fbEvent('Lead');
+                }
+              } catch(_){}
+            }
+            return originalPush.apply(dl, arguments);
+          };
+        } catch(_){}
+      })();
+    </script>
+    <script>
+        window.pixelId = "67d48c2dc1c4495dedf1d8c9";
+        var a = document.createElement("script");
+        a.setAttribute("async", "");
+        a.setAttribute("defer", "");
+        a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+        document.head.appendChild(a);
+    </script>
+    <script>
+        window.googlePixelId = "68dc3a74c47744e1badaa843";
+        var a = document.createElement("script");
+        a.setAttribute("async", "");
+        a.setAttribute("defer", "");
+        a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel-google.js");
+        document.head.appendChild(a);
+    </script>
+    <script defer="defer" src="./js/chunk-vendors.6c076bed.js"></script>
+    <script defer="defer" src="./js/app.259a1144.js"></script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '548423381240354');
+fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none"
+       src="https://www.facebook.com/tr?id=548423381240354&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+</head>
+
+<body><noscript><strong>We're sorry but Mahila Luz doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
+    <div id="app"></div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer="defer" async></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer="defer" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" defer="defer" async></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer="defer" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.22.0/video.min.js" defer="defer" async></script>
+    <script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js" defer="defer" async></script>
+    <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" async defer="defer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" defer="defer" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/CSSRulePlugin.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" defer="defer" async></script>
+    <script src="https://kit.fontawesome.com/e4e8e4da22.js" crossorigin="anonymous" defer="defer" async></script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"26f87f5b623147b49ad6106e13894450","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+        crossorigin="anonymous"></script>
+    <!-- Cloudflare challenge script removido para compatibilidade com GitHub Pages -->
+    <!-- Hook global: redirecionamento automático para /vsl/ ATIVADO por padrão. Use ?autoVsl=0 para desativar -->
+    <script>
+      (function() {
+        function shouldAuto(){
+          try {
+            var searchParams = new URLSearchParams(window.location.search || '');
+            var val = searchParams.get('autoVsl');
+            if (val === '0') return false; // permite desligar via query
+            if (val === '1') return true;  // força ligar via query
+            return true; // padrão: ligado em produção
+          } catch(e) { return true; }
+        }
+        if (!shouldAuto()) {
+          try { console.debug('[VSL] Auto redirect desativado por parâmetro (?autoVsl=0).'); } catch(e) {}
+          return;
+        }
+        var done = false;
+        function advance(){
+          if (done) return; done = true;
+          var url = 'vsl/';
+          try {
+            // Preserva UTM e identificadores comuns na navegação
+            var current = new URL(window.location.href);
+            var dest = new URL(url, current);
+            current.searchParams.forEach(function(v, k){
+              if (/^(utm_[a-z]+|fbclid|gclid|msclkid)$/i.test(k)) {
+                if (!dest.searchParams.has(k)) dest.searchParams.set(k, v);
+              }
+            });
+            // Tracking do redirecionamento automático para a VSL
+            try { if (typeof gaEvent === 'function') gaEvent('go_to_vsl', {source:'auto_redirect', origin:'quiz'}); else if (typeof gtag === 'function') gtag('event','go_to_vsl',{source:'auto_redirect', origin:'quiz'}); } catch(e) {}
+            try { if (typeof fbEvent === 'function') fbEvent('GoToVSL', {source:'auto_redirect'}); else if (typeof fbq === 'function') fbq('trackCustom','GoToVSL'); } catch(e) {}
+            window.location.assign(dest.toString());
+          } catch(_) {
+            if (typeof window.location.assign === 'function') window.location.assign(url); else window.location.href = url;
+          }
+        }
+        function computeDurationMs(el){
+          try {
+            var cs = getComputedStyle(el);
+            var raw = String(cs.animationDuration || '3s').split(',')[0].trim();
+            if (raw.endsWith('ms')) return Math.min(10000, Math.max(500, parseFloat(raw)));
+            if (raw.endsWith('s')) return Math.min(10000, Math.max(500, parseFloat(raw) * 1000));
+          } catch(e) {}
+          return 3000;
+        }
+        function attach(){
+          var el = document.querySelector('.loading-container .progress-fill') || document.querySelector('.progress-fill');
+          if (!el || el.__vslHookAttached) return false;
+          el.__vslHookAttached = true;
+          el.addEventListener('animationend', advance, { once: true });
+          el.addEventListener('transitionend', advance, { once: true });
+          setTimeout(advance, computeDurationMs(el) + 500);
+          return true;
+        }
+        function start(){
+          try {
+            var obs = new MutationObserver(function(){ attach(); });
+            obs.observe(document.body, { childList: true, subtree: true });
+            var tries = 0;
+            var tick = setInterval(function(){
+              tries++;
+              if (attach() || tries > 20) clearInterval(tick);
+            }, 300);
+            attach();
+          } catch(e) {}
+        }
+        if (document.readyState !== 'loading') start(); else document.addEventListener('DOMContentLoaded', start);
+      })();
+    </script>
+    <!-- Define hash padrão #/ para iniciar o quiz quando abrir a raiz do domínio -->
+    <script>
+      (function(){
+        try {
+          var path = String(window.location.pathname || '/');
+          var hash = String(window.location.hash || '');
+          var isVslPath = path.endsWith('/vsl') || path.endsWith('/vsl/');
+          if (!isVslPath && (!hash || hash === '#')) {
+            console.debug('[Router] Definindo hash padrão #/ para inicializar o quiz.');
+            window.location.hash = '#/'
+          }
+        } catch(_){}
+      })();
+    </script>
+    
+    <!-- Intercepta navegação do SPA para #/vsl e redireciona para /vsl/ estático -->
+    <script>
+      (function(){
+        function onVslHash(){
+          try {
+            var path = String(window.location.pathname || '/');
+            if (path.endsWith('/vsl') || path.endsWith('/vsl/')) return; // já estamos na VSL
+            var h = window.location.hash || '';
+            var m = h.match(/^#\/vsl\/?(?:\?(.*))?$/);
+            if (m) {
+              var qs = m[1] ? ('?' + m[1]) : '';
+              console.debug('[Router] Hash indica /vsl, redirecionando via caminho relativo para vsl/');
+              window.location.assign(new URL('vsl/' + qs, window.location.href).toString());
+            }
+          } catch(_){ }
+        }
+        window.addEventListener('hashchange', onVslHash);
+        // verifica já na carga
+        onVslHash();
+      })();
+    </script>
+  </body>
+
+</html>
