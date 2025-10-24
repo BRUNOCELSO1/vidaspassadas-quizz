@@ -1,0 +1,17 @@
+{
+"version": 2,
+"routes": [
+{ "handle": "filesystem" },{ "src": "^/vsl$", "dest": "/vidaspassadas-quizz/vsl/index.html" },
+{ "src": "^/vsl/$", "dest": "/vidaspassadas-quizz/vsl/index.html" },
+{ "src": "^/vsl/(.*)$", "dest": "/vidaspassadas-quizz/vsl/index.html" },
+
+{ "src": "^/vsl2$", "dest": "/vidaspassadas-quizz/vsl2/index.html" },
+{ "src": "^/vsl2/$", "dest": "/vidaspassadas-quizz/vsl2/index.html" },
+{ "src": "^/vsl2/(.*)$", "dest": "/vidaspassadas-quizz/vsl2/index.html" },
+
+{ "src": "^/img/(.*)$", "dest": "/vidaspassadas-quizz/img/$1" },
+{ "src": "^/css/(.*)$", "dest": "/vidaspassadas-quizz/css/$1" },
+{ "src": "^/js/(.*)$", "dest": "/vidaspassadas-quizz/js/$1" },
+{ "src": "^/favicon\\.png$", "dest": "/vidaspassadas-quizz/favicon.png" },
+
+{ "src": "^/(.*)$", "dest": "/vidaspassadas-quizz/index.html" }
